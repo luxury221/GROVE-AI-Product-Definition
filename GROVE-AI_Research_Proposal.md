@@ -1,11 +1,11 @@
 ---
 title: "GROVE-AI：面向消费电子产品定义的证据驱动多智能体研究框架"
 subtitle: "以 10,000mAh 磁吸无线充电宝为例的开题报告"
-author: "项目组（请替换）"
+author: "BlackLions"
 date: "2026-07-18"
 status: "Research Proposal / 开题阶段"
 version: "v1.0"
-license: "CC BY-NC 4.0（建议，提交前请根据团队要求调整）"
+license: "GROVE-AI Competition Evaluation License v1.0 — All Rights Reserved"
 ---
 
 # GROVE-AI：面向消费电子产品定义的证据驱动多智能体研究框架
