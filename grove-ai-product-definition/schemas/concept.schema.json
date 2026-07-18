@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GROVE-AI Product Concept",
+  "type": "object",
+  "required": [
+    "concept_id",
+    "core_jtbd",
+    "value_proposition",
+    "differentiators",
+    "not_doing",
+    "spec_hypotheses",
+    "risks",
+    "mvp"
+  ],
+  "properties": {
+    "concept_id": {
+      "type": "string",
+      "pattern": "^K-[A-Za-z0-9_-]+$"
+    },
+    "core_jtbd": {
+      "type": "string",
+      "minLength": 1
+    },
+    "value_proposition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "differentiators": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "not_doing": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "spec_hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "hypothesis",
+          "test",
+          "kill_criterion"
+        ]
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "risk_id",
+          "description",
+          "mitigation"
+        ]
+      }
+    },
+    "mvp": {
+      "type": "object",
+      "required": [
+        "prototype",
+        "primary_metric",
+        "acceptance",
+        "stop"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

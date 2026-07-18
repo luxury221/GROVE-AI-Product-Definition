@@ -1,0 +1,23 @@
+run_id: YYYYMMDD-category-v001
+category: 10000mAh magnetic wireless power bank
+anchor_brand: Anker
+target_market: ""
+target_user_contexts: []
+comparison_scope:
+  capacity_range_mah: [9000, 11000]
+  magnetic_form_factor: true
+  wireless_output_required: true
+  launch_window: ""
+historical_cutoff: ""
+research_window: ""
+minimum_products: 4
+minimum_feedback_items: 100
+output_language: zh-CN
+decision_owner: ""
+constraints:
+  budget: ""
+  deadline: ""
+  tools: []
+  data_permissions: []
+  confidentiality: ""
+status: initialized

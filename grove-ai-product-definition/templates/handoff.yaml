@@ -1,0 +1,13 @@
+handoff_id: H-000
+from_agent: ""
+to_agent: ""
+objective: ""
+inputs: []
+outputs_expected: []
+assumptions: []
+uncertainties: []
+blockers: []
+next_gate: ""
+definition_of_done: []
+created_at: ""
+status: open
