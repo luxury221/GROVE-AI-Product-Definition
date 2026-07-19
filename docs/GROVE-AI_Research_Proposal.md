@@ -1,26 +1,29 @@
 ---
-title: "GROVE-AI：面向消费电子产品定义的证据驱动多智能体研究框架"
-subtitle: "以 10,000mAh 磁吸无线充电宝为例的开题报告"
+title: "GROVE-AI：面向安克多产品线的证据驱动 AI 产品定义决策系统"
+subtitle: "以 10,000mAh 磁吸无线充电宝为首个验证品类的开题报告附件"
 author: "BlackLions"
 date: "2026-07-18"
-status: "Research Proposal / 开题阶段"
-version: "v1.0"
+status: "Research Proposal / 开题阶段附件；正式回测与硬件实验未完成"
+version: "v1.1"
 license: "GROVE-AI Competition Evaluation License v1.0 — All Rights Reserved"
 ---
 
-# GROVE-AI：面向消费电子产品定义的证据驱动多智能体研究框架
+# GROVE-AI：面向安克多产品线的证据驱动 AI 产品定义决策系统
 
-> **研究对象：** 10,000mAh 磁吸无线充电宝  
+> **文档角色：** 长篇开题报告与方法证据附件；报名入口见 [`EXECUTIVE_SUMMARY.md`](../EXECUTIVE_SUMMARY.md)
+> **主方案：** GROVE-AI 产品定义决策系统
+> **首个验证品类：** 10,000mAh 磁吸无线充电宝
 > **锚定品牌：** Anker  
-> **候选产品方向：** Anker MagGo Compass 10K  
-> **候选智能系统：** PowerPilot AI  
+> **示范产品（Hypothesis）：** Anker MagGo Compass 10K
+> **产品内部能力（Hypothesis）：** PowerPilot AI
+> **企业协作载体（Planned）：** 飞书工作台
 > **研究性质：** 产品设计研究、AI Agent 工作流研究、历史桌面回测与工程可行性验证
 
 ---
 
 ## 摘要
 
-消费电子产品定义长期依赖产品经理的经验、有限用户访谈和竞品拆解，容易产生证据选择偏差、功能堆叠、需求与工程约束脱节，以及“产品发布后再解释为什么成功”的事后归因问题。本课题拟提出并实现 **GROVE-AI**：一套面向消费电子产品定义的证据驱动、多智能体协作与可回测研究框架。
+消费电子产品定义长期依赖产品经理的经验、有限用户访谈和竞品拆解，容易产生证据选择偏差、功能堆叠、需求与工程约束脱节，以及“产品发布后再解释为什么成功”的事后归因问题。本课题拟提出并实现 **GROVE-AI**：一套面向安克多产品线的证据驱动 AI 产品定义决策系统。它以可追溯证据、生成与审查分离、人工 Gate 和历史回测降低决策损耗，并把一次研究沉淀为可复用的企业知识资产。
 
 GROVE-AI 包含五个连续阶段：**Ground Evidence（证据落地）**、**Reframe the Job（任务重构）**、**Orchestrate Agents（智能体编排）**、**Verify Adversarially（对抗验证）**、**Engineer & Experiment（工程化与实验）**。框架综合吸收人本设计、Jobs to Be Done、持续产品发现、质量功能展开、失效模式分析和历史回测思想，要求所有核心结论区分 `FACT`、`INFERENCE` 与 `HYPOTHESIS`，并通过证据账本、时间切分、外部品牌控制、红队审查和消融实验降低幻觉与事后合理化风险。
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "GROVE-AI Product Definition"
+  short_description: "Evidence-driven product definition and validation"
+  default_prompt: "Use $grove-ai-product-definition to turn product evidence into an auditable opportunity, decision gates, and validation plan."
