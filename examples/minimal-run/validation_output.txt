@@ -1,0 +1,5 @@
+Validation passed: required files and headers are present.
+Wrote metrics for 1 cases to examples/minimal-run/metrics.json
+
+This output was produced with synthetic fixture data. It verifies file structure,
+required CSV headers, and script execution; it is not a formal backtest result.

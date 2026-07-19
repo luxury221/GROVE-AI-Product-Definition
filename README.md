@@ -52,7 +52,7 @@ GROVE-AI                     主方案：企业产品定义决策系统
 
 | 对象 | 状态 | 说明 |
 |---|---|---|
-| GROVE-AI 方法与 Skill | `Completed` | 方法、模板、Schema 和脚本已形成并通过基础验证 |
+| GROVE-AI 方法与 Skill | `Completed` | 方法、模板、Schema 和脚本已形成；[最小运行示例](examples/minimal-run/)可复现基础验证 |
 | Compass 10K 概念 | `In Progress` | Design artifact: `Completed`；Empirical validation: `Planned` |
 | Soundcore 微型适配 | `In Progress` | Design artifact: `Completed`；Empirical validation: `Planned` |
 | 正式历史回测 | `Planned` | Protocol: `Completed`；Execution: `Planned` |
@@ -63,7 +63,7 @@ GROVE-AI                     主方案：企业产品定义决策系统
 
 ## 入围后 14 天交付
 
-计划采用两档范围。**必达交付**包括 10–15 个核心 SKU、300+ 去重反馈、1 个完整历史回测案例、1 个基线、1 个消融、Compass 10K 提案和飞书端到端工作台；**挑战目标**包括 20+ SKU、500+ 去重反馈、Soundcore 微型迁移及更多回测时间点与外部品牌控制。详见 [ROADMAP_14_DAYS.md](ROADMAP_14_DAYS.md)。
+计划采用两档范围。**必达交付**包括 10–15 个核心 SKU、300+ 去重反馈、1 个完整历史回测案例、1 个简单基线、1 个关键模块消融、至少 1 个外部品牌控制、至少 1 个留出产品或产品族、至少 1 个失败或被否决案例、Compass 10K 提案和飞书端到端工作台；**挑战目标**包括 20+ SKU、500+ 去重反馈、第二个外部品牌控制、第二个历史时间点或扩展回测案例、更多留出产品族和 Soundcore 微型迁移。详见 [ROADMAP_14_DAYS.md](ROADMAP_14_DAYS.md)。
 
 ## 快速查看
 
@@ -91,6 +91,16 @@ GROVE-AI                     主方案：企业产品定义决策系统
 python grove-ai-product-definition/scripts/score_opportunities.py <input.csv> <output.csv>
 python grove-ai-product-definition/scripts/validate_run.py <runs/run_id>
 python grove-ai-product-definition/scripts/backtest_metrics.py <predictions.csv> <observations.csv> <metrics.json>
+```
+
+最小可复现运行示例见 [`examples/minimal-run/`](examples/minimal-run/)。该目录使用合成夹具数据验证目录、CSV 表头和指标脚本，不代表正式产品研究结果：
+
+```bash
+python grove-ai-product-definition/scripts/validate_run.py examples/minimal-run
+python grove-ai-product-definition/scripts/backtest_metrics.py \
+  examples/minimal-run/07_backtest/predictions.csv \
+  examples/minimal-run/07_backtest/observations.csv \
+  examples/minimal-run/metrics.json
 ```
 
 ## 许可证

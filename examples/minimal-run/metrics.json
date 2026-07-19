@@ -1,0 +1,20 @@
+{
+  "cases": 1,
+  "pain_recall_mean": 0.5,
+  "pain_precision_mean": 0.5,
+  "tradeoff_detection_mean": 1.0,
+  "leakage_rate": 0.0,
+  "details": [
+    {
+      "case_id": "BT-SYN-001",
+      "pain_recall": 0.5,
+      "pain_precision": 0.5,
+      "tradeoff_recall": 1.0,
+      "leakage": false
+    }
+  ],
+  "notes": [
+    "These set-overlap metrics are diagnostic, not proof of market success.",
+    "Add human coding reliability and source-quality audits for formal evaluation."
+  ]
+}

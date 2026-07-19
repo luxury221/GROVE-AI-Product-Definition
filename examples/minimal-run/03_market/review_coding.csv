@@ -1,0 +1,3 @@
+feedback_id,product_id,source_id,context_code,pain_code
+F-SYN-001,P-SYN-001,S-SYN-001,COMMUTE,PB-HEAT
+F-SYN-002,P-SYN-CTRL,S-SYN-002,TRAVEL,PB-CABLE

@@ -1,0 +1,2 @@
+case_id,predicted_pains_topk,predicted_tradeoffs,leakage_flag
+BT-SYN-001,PB-HEAT;PB-BULK,THERMAL;WEIGHT,false

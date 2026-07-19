@@ -1,0 +1,3 @@
+evidence_id,claim_id,source_type,summary,statement_type,historical_eligible
+E-SYN-001,C-SYN-001,synthetic_official,"Synthetic fixture: controlled capacity field is present",FACT,true
+E-SYN-002,C-SYN-002,synthetic_review,"Synthetic fixture: thermal trade-off appears in observation",FACT,true
