@@ -1,14 +1,6 @@
 # 安克业务价值闭环
 
-```mermaid
-flowchart LR
-    A[全球用户与市场证据] --> B[GROVE-AI 统一编码]
-    B --> C[产品机会与工程约束]
-    C --> D[人工产品决策 Gate]
-    D --> E[新品定义与 MVP]
-    E --> F[结果与知识资产沉淀]
-    F --> B
-```
+![GROVE-AI 安克产品定义价值闭环：证据可追溯、多智能体协同、人工 Gate 保留决策权，并通过回测实现持续优化](../assets/grove-ai-anker-product-definition-value-loop.png)
 
 ## 闭环责任
 

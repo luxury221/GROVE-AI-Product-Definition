@@ -44,15 +44,7 @@ GROVE-AI                     主方案：企业产品定义决策系统
 
 ## 企业价值闭环
 
-```mermaid
-flowchart LR
-    A[全球用户与市场证据] --> B[GROVE-AI 统一编码]
-    B --> C[产品机会与工程约束]
-    C --> D[人工产品决策 Gate]
-    D --> E[新品定义与 MVP]
-    E --> F[结果与知识资产沉淀]
-    F --> B
-```
+![GROVE-AI 安克产品定义价值闭环：从外部证据输入，经 AI 分析、人工决策、新品定义与 MVP，最终沉淀为可复用的企业知识资产](assets/grove-ai-anker-product-definition-value-loop.png)
 
 价值覆盖信息处理效率、决策质量、工程风险前置、跨团队协作和品牌知识资产沉淀。详见 [BUSINESS_VALUE.md](BUSINESS_VALUE.md)。
 
