@@ -2,8 +2,6 @@
 
 > 面向安克多产品线的证据驱动 AI 产品定义决策系统：把分散的用户、市场与工程证据，转化为可追溯、可验证、可进入人工决策 Gate 的产品机会。
 
-**项目状态：入围遴选前优化。** 本仓库公开展示方法、模板和开题阶段样例；正式历史回测、硬件实验和商业效果仍为 `Planned`，不得视为已完成结果。
-
 ## 安克面对的问题
 
 安克面向多国家、多渠道、多语言和多产品线。问题并非缺少信息，而是证据分散、口径不一、工程约束进入决策过晚，一次项目形成的知识也难以复用。传统人工整理容易造成证据损耗、重复沟通、功能堆叠和风险后置。
@@ -74,34 +72,6 @@ GROVE-AI                     主方案：企业产品定义决策系统
 - [Compass 10K 示范概念](docs/COMPASS_10K_CONCEPT.md)
 - [Soundcore 第二品类微型适配](docs/SOUNDCORE_MICRO_ADAPTER.md)
 - [GROVE-AI Skill](grove-ai-product-definition/SKILL.md)
-
-## 使用 Skill
-
-将整个 `grove-ai-product-definition/` 文件夹安装到支持 Agent Skills 的环境，或直接让智能体读取其中的 `SKILL.md`。示例指令：
-
-```text
-使用 GROVE-AI，对目标消费电子品类建立可追溯 Evidence Ledger，
-在 Gate G 通过后形成一个核心 JTBD，并设计严格时间切分的历史回测。
-所有结论区分 FACT、INFERENCE、HYPOTHESIS，所有交付标记状态。
-```
-
-基础脚本：
-
-```bash
-python grove-ai-product-definition/scripts/score_opportunities.py <input.csv> <output.csv>
-python grove-ai-product-definition/scripts/validate_run.py <runs/run_id>
-python grove-ai-product-definition/scripts/backtest_metrics.py <predictions.csv> <observations.csv> <metrics.json>
-```
-
-最小可复现运行示例见 [`examples/minimal-run/`](examples/minimal-run/)。该目录使用合成夹具数据验证目录、CSV 表头和指标脚本，不代表正式产品研究结果：
-
-```bash
-python grove-ai-product-definition/scripts/validate_run.py examples/minimal-run
-python grove-ai-product-definition/scripts/backtest_metrics.py \
-  examples/minimal-run/07_backtest/predictions.csv \
-  examples/minimal-run/07_backtest/observations.csv \
-  examples/minimal-run/metrics.json
-```
 
 ## 许可证
 
