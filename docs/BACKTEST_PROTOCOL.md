@@ -1,6 +1,8 @@
 # GROVE-AI 正式历史回测协议
 
-> 状态：`Completed`（协议已定义）；正式数据收集与回测执行为 `Planned`。
+> - **Protocol:** `Completed`
+> - **Execution:** `Planned`
+> 本文件定义可执行协议，不代表正式数据收集或历史回测已经完成。
 
 ## 1. 预注册边界
 

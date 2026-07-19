@@ -50,20 +50,20 @@ GROVE-AI                     主方案：企业产品定义决策系统
 
 ## 当前完成状态
 
-| 状态 | 内容 |
-|---|---|
-| `Completed` | GROVE-AI 方法框架、Skill、模板、Schema、基础验证脚本、小规模公开资料样例 |
-| `Completed` | Compass 10K 概念假设、Soundcore 微型适配设计、正式回测协议 |
-| `In Progress` | 比赛表达优化、报名材料收敛、样本和数据规则冻结 |
-| `Planned` | 20+ 同品类 SKU、500+ 去重反馈的正式历史回测与消融 |
-| `Planned` | 飞书治理工作台、Compass 10K MVP 与热/功率/结构实验 |
-| `Hypothesis` | RangeView、RouteCharge、DockCable、PowerPilot AI 的产品与工程效果 |
+| 对象 | 状态 | 说明 |
+|---|---|---|
+| GROVE-AI 方法与 Skill | `Completed` | 方法、模板、Schema 和脚本已形成并通过基础验证 |
+| Compass 10K 概念 | `In Progress` | Design artifact: `Completed`；Empirical validation: `Planned` |
+| Soundcore 微型适配 | `In Progress` | Design artifact: `Completed`；Empirical validation: `Planned` |
+| 正式历史回测 | `Planned` | Protocol: `Completed`；Execution: `Planned` |
+| 飞书工作台与 Compass MVP | `Planned` | 入围后搭建与验证 |
+| RangeView、RouteCharge、DockCable、PowerPilot AI 效果 | `Hypothesis` | 需要用户、工程和基线实验验证 |
 
-`Completed` 表示文档、方法或样例已形成，不表示产品效果、商业收益或实验指标已经得到验证。
+`Completed` 只用于已存在、可复现并通过对应 Gate 的对象。设计产物完成但实证未完成时，使用复合状态，不把产品效果、商业收益或实验指标写成结果。
 
 ## 入围后 14 天交付
 
-交付分为证据底座、机会排序、工程/商业审查、历史回测、产品收敛、第二品类适配和工作台演示。每一天都有可检查的产物和人工 Gate，详见 [ROADMAP_14_DAYS.md](ROADMAP_14_DAYS.md)。
+计划采用两档范围。**必达交付**包括 10–15 个核心 SKU、300+ 去重反馈、1 个完整历史回测案例、1 个基线、1 个消融、Compass 10K 提案和飞书端到端工作台；**挑战目标**包括 20+ SKU、500+ 去重反馈、Soundcore 微型迁移及更多回测时间点与外部品牌控制。详见 [ROADMAP_14_DAYS.md](ROADMAP_14_DAYS.md)。
 
 ## 快速查看
 
@@ -72,11 +72,8 @@ GROVE-AI                     主方案：企业产品定义决策系统
 - [14 天实施路线图](ROADMAP_14_DAYS.md)
 - [完整开题报告（附件）](docs/GROVE-AI_Research_Proposal.md)
 - [Compass 10K 示范概念](docs/COMPASS_10K_CONCEPT.md)
-- [被 GROVE-AI 否决的功能堆叠反例](docs/COMPASS_10K_CONCEPT.md#被否决的反例maggo-all-in-one-max)
 - [Soundcore 第二品类微型适配](docs/SOUNDCORE_MICRO_ADAPTER.md)
-- [正式回测协议](docs/BACKTEST_PROTOCOL.md)
 - [GROVE-AI Skill](grove-ai-product-definition/SKILL.md)
-- [Issue #1 优化路线图](ISSUE_1_OPTIMIZATION_ROADMAP.md)
 
 ## 使用 Skill
 
@@ -101,3 +98,7 @@ python grove-ai-product-definition/scripts/backtest_metrics.py <predictions.csv>
 Copyright © 2026 GROVE-AI Project Contributors. All rights reserved.
 
 本仓库是 2026 AI 先锋未来人才大赛安克创新赛道的参赛项目，仅授权赛事主办方、安克创新及评审人员为赛事评审和验证目的使用。未经书面许可，不得复制、修改、传播、用于其他比赛、制作衍生项目或用于商业用途。具体条款参见 [LICENSE](LICENSE)。
+
+## 项目治理记录
+
+内部审核与改稿过程保留在 [`docs/internal/`](docs/internal/ISSUE_1_OPTIMIZATION_ROADMAP.md)，不属于评委快速阅读主路径。

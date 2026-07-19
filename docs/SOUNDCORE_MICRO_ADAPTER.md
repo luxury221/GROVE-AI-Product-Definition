@@ -1,6 +1,11 @@
 # Soundcore 真无线耳机微型适配器
 
-> 目标：以最小案例证明 GROVE-AI 的流程可跨品类迁移。状态：`Completed`（适配设计已形成）；其中产品机会与规格均为 `Hypothesis`，尚未经过正式研究或实验。
+> 目标：以最小案例展示 GROVE-AI 的跨品类迁移设计。
+>
+> - **Status:** `In Progress`
+> - **Design artifact:** `Completed`
+> - **Empirical validation:** `Planned`
+> - 产品机会与规格：`Hypothesis`
 
 ## 1. 品类边界
 
